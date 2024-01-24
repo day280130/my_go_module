@@ -2,6 +2,6 @@ package mygomodule
 
 import "fmt"
 
-func SayHello(target string) {
+func SayHelloTo(target string) {
 	fmt.Printf("Hello %s!", target)
 }
