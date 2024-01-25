@@ -2,8 +2,8 @@ package mygomodule
 
 import "fmt"
 
-func SayHelloTo(target string) {
-	fmt.Printf("Hello %s!", target)
+func SayHelloTo(target string, selfName string) {
+	fmt.Printf("Hello %s! I'm %s", target, selfName)
 }
 
 func GenerateHiTo(target string) string {
